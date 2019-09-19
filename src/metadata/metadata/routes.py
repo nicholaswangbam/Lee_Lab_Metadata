@@ -11,11 +11,11 @@ from werkzeug.utils import secure_filename
 scriptdir=os.path.dirname(os.path.realpath(__file__))
 sys.path.append(scriptdir+'/..')
 
-MYSQL_HOST = 'localhost'
-MYSQL_USER = 'metauser'
-MYSQL_PASS = 'M3T@T3$T3R'
-DATABASE_NAME = 'metadata'
-TABLE_NAME = 'records'
+MYSQL_HOST = '****'
+MYSQL_USER = '****'
+MYSQL_PASS = '****'
+DATABASE_NAME = '****'
+TABLE_NAME = '****'
 
 #class to keep date in orginal format when converting data list to JSON
 class CustomJSONEncoder(JSONEncoder):
